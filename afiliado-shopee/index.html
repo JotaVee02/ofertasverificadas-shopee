@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="As melhores ofertas e promoções da Shopee em um só lugar. Produtos selecionados com descontos especiais.">
+    <meta name="keywords" content="ofertas shopee, promoções, descontos, produtos em destaque, achados shopee">
+    <meta name="author" content="AchadinhosStore">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Ofertas Especiais da Shopee - AchadinhosStore">
+    <meta property="og:description" content="Descubra as melhores ofertas e promoções da Shopee em um só lugar!">
+    <meta property="og:image" content="./images/logo.jpeg">
+    <meta property="og:url" content="https://achadinhosstore.vercel.app">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Ofertas Especiais da Shopee - AchadinhosStore</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header role="banner">
+        <div class="container">
+            <div class="logo-container" itemscope itemtype="https://schema.org/Organization">
+                <img src="/images/logo.jpeg" alt="AchadinhosStore - As melhores ofertas da Shopee" class="logo" width="200" height="60" loading="eager">
+            </div>
+            <h1>Ofertas Especiais da Shopee</h1>
+            <div class="alert-info" role="alert" aria-live="polite">
+                <div class="alert-icon" aria-hidden="true">✨</div>
+                <div class="alert-content">
+                    <p><strong>Atenção:</strong> Este site apresenta produtos da Shopee selecionados com carinho. Ao clicar para comprar, você será direcionado(a) para o site oficial da Shopee. Comprando por aqui, você apoia nosso trabalho sem custo adicional. <span aria-hidden="true">💖</span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+        <section class="products" aria-labelledby="produtos-destaque">
+            <h2 id="produtos-destaque">Produtos em Destaque</h2>
+            <div class="alert-info price-alert" role="alert" aria-live="polite">
+                <div class="alert-icon" aria-hidden="true">💰</div>
+                <div class="alert-content">
+                    <p><strong>Atenção aos preços:</strong> Os valores exibidos são referências e podem estar sujeitos a alterações. Recomendamos verificar o preço atualizado na página do produto na Shopee, pois podem haver promoções ou descontos especiais disponíveis.</p>
+                </div>
+            </div>
+            <div class="product-grid" id="product-grid" role="list">
+                <!-- Os produtos serão carregados dinamicamente via JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Seu Afiliado. Todos os direitos reservados.</p>
+    </footer>
+
+    <div class="loading-indicator">
+        <div class="spinner"></div>
+        <p>Carregando...</p>
+    </div>
+    <button id="back-to-top" aria-label="Voltar ao topo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+    
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 AchadinhosStore. Todos os direitos reservados.</p>
+                <p>Este é um site afiliado à Shopee. Preços e condições podem variar sem aviso prévio.</p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Política de Privacidade</a>
+                    <span class="separator">•</span>
+                    <a href="#" class="footer-link">Termos de Uso</a>
+                    <span class="separator">•</span>
+                    <a href="#" class="footer-link">Contato</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="/js/main.js" defer></script>
+</body>
+</html>
