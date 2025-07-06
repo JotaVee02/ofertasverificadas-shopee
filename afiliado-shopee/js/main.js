@@ -286,7 +286,7 @@ function createProductCard(product) {
         <article class="product-card" role="listitem" itemscope itemtype="https://schema.org/Product" data-id="${product.id}" data-category="${product.category}">
             <div class="product-image-container">
                 <img 
-                    data-src="/images/${product.image}" 
+                    data-src="images/${product.image}" 
                     src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
                     alt="${product.name}" 
                     class="product-image" 
