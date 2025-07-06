@@ -1,0 +1,14 @@
+{
+  "name": "ofertas-shopee",
+  "version": "1.0.0",
+  "description": "Site de ofertas da Shopee",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "^4.5.0"
+  }
+}
